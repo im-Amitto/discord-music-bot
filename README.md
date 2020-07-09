@@ -1,4 +1,4 @@
-# MusicBot
+<!-- # MusicBot
 
 [![GitHub stars](https://img.shields.io/github/stars/Just-Some-Bots/MusicBot.svg)](https://github.com/Just-Some-Bots/MusicBot/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Just-Some-Bots/MusicBot.svg)](https://github.com/Just-Some-Bots/MusicBot/network)
@@ -21,4 +21,4 @@ There are many commands that can be used with the bot. Most notably, the `play <
 ### Further reading
 
 * [Support Discord server](https://discord.gg/bots)
-* [Project license](LICENSE)
+* [Project license](LICENSE) -->
