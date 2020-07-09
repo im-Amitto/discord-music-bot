@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.9
 
 # Add project source
 WORKDIR /usr/src/musicbot
@@ -21,8 +21,10 @@ RUN apk update \
   make \
   musl-dev \
   python3-dev \
+	py3-pip \
 \
 # Install pip dependencies
+&& pip3 install wheel \
 && pip3 install --no-cache-dir -r requirements.txt \
 && pip3 install --upgrade --force-reinstall --version websockets==4.0.1 \
 \
